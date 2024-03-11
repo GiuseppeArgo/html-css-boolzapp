@@ -35,6 +35,19 @@
     .chat-screen {
         height: calc(100vh - 160px);
     }
+
+    header ul {
+        display: none;
+    }
+
+    .contact-header {
+        justify-content: center;
+    }
+    
+    .user-photo {
+        margin: 0;
+    }
+
 }
 
 @media screen and (max-width: 576px) {

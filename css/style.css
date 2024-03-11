@@ -40,11 +40,48 @@ header {
     background-color: #eaeaea;
 }
 
+/* common */
+ul {
+    list-style: none;
+}
+
+.user-photo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+}
+
 /* contacts column */
 
 .contact-col {
     width: 30%;
     height: 90vh;
+}
+
+/* contact header */
+
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #d8d8d8;
+}
+
+header ul {
+    display: flex;
+}
+
+header button {
+    font-size: 25px;
+    color: #b1b1b1;
+    background-color: #eaeaea;
+    padding-right: 30px;
 }
 
 .notifications {
@@ -78,3 +115,4 @@ header {
     height: 80px;
     background-color: #f3eeea;
 }
+ 
