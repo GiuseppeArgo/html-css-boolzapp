@@ -67,6 +67,14 @@ header {
 .chat-col {
     width: 70%;
     height: 90vh;
-    /* debug */
-    background-color: lightcoral;
+}
+
+.chat-screen {
+    height: calc(90vh - 160px);
+    background-image: url(../img/mine.jpg);
+}
+
+.chat-footer {
+    height: 80px;
+    background-color: #f3eeea;
 }
