@@ -1,0 +1,36 @@
+/* tablet wp  */
+
+@media screen and (max-width: 992px) {
+    .big-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .contact-col {
+        width: 15%;
+        height: 100vh;
+    }
+
+    .chat-col {
+        width: 85%;
+        height: 100vh;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .big-container {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .contact-col {
+        display: none;
+    }
+
+    .chat-col {
+        width: 100%;
+        height: 100vh;
+    }
+    
+}
