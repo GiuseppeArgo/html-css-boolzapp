@@ -6,16 +6,31 @@
         height: 100vh;
     }
 
+    /* contacts column */
+
     .contact-col {
-        width: 15%;
+        width: 10%;
         height: 100vh;
     }
 
+    .notifications {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .contacts {
+        height: calc(100vh - 80px);
+    }
+
+    /* chat column */
+
     .chat-col {
-        width: 85%;
+        width: 90%;
         height: 100vh;
     }
-    
 }
 
 @media screen and (max-width: 576px) {
@@ -24,10 +39,14 @@
         height: 100vh;
     }
     
+    /* contacts column */
+
     .contact-col {
         display: none;
     }
 
+    /* chat column */
+    
     .chat-col {
         width: 100%;
         height: 100vh;

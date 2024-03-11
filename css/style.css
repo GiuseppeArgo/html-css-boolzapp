@@ -32,16 +32,34 @@ img {
 .big-container {
     width: 80%;
     height: 90vh;
-    background-color: white;
     display: flex;
 }
 
-/* contact column */
+header {
+    height: 80px;
+    background-color: #eaeaea;
+}
+
+/* contacts column */
 
 .contact-col {
     width: 30%;
     height: 90vh;
-    background-color: lightgreen;
+}
+
+.notifications {
+    height: 100px;
+    background-color: #8edafc;
+}
+
+.search-bar {
+    height: 70px;
+    background-color: #fafafa;
+}
+
+.contacts {
+    height: calc(90vh - 250px);
+    background-color: #ffffff;
 }
 
 /* chat column */
@@ -49,5 +67,6 @@ img {
 .chat-col {
     width: 70%;
     height: 90vh;
+    /* debug */
     background-color: lightcoral;
 }
