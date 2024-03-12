@@ -82,6 +82,10 @@ h2 {
     align-items: center;
 }
 
+.contacts .user:hover {
+    background-color: lightgray;
+}
+
 /* contact header */
 
 .contact-header {
