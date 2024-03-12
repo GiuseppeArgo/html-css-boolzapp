@@ -262,8 +262,25 @@ header button {
     background-color: #ffffff;
 }
 
+/* chat footer */
+
 .chat-footer {
     height: 80px;
     background-color: #f3eeea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
- 
+
+.chat-footer button {
+    font-size: 1.8rem;
+    color: #6b7376;
+}
+
+.chat-footer input {
+    width: 85%;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
