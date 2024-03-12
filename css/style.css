@@ -55,7 +55,7 @@ ul {
     height: 60px;
     object-fit: cover;
     border-radius: 50px;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 button {
@@ -69,7 +69,6 @@ button {
 h2 {
     font-size: 1.2rem;
     font-weight: 100;
-    padding-left: 15px;
 }
 
 /* contacts column */
@@ -192,7 +191,6 @@ header button {
 }
 
 .chat-header p {
-    padding-left: 15px;
     font-size: 0.8rem;
     color: #828c91;
 }
