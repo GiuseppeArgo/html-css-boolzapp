@@ -139,7 +139,7 @@ header button {
     color: #677d8f;
 }
 
-/* search chat*/
+/* search chat */
 
 .search-bar {
     height: 60px;
@@ -169,10 +169,21 @@ header button {
     color: #b7b9bb;
 }
 
+/* contacts */
+
 .contacts {
     height: calc(100% - 230px);
     background-color: #ffffff;
     overflow-y: auto;
+}
+
+.time {
+    padding-left: 85px;
+    padding-bottom: 20px;
+}
+
+.contacts .user {
+    border-bottom: 1px solid #f1f1f1;
 }
 
 /* chat column */
@@ -190,15 +201,65 @@ header button {
     align-items: center;
 }
 
-.chat-header p {
+.chat-header p,
+.contacts p {
     font-size: 0.8rem;
     color: #828c91;
+    padding-top: 3px;
 }
+
+/* chat screen */
 
 .chat-screen {
     height: calc(100% - 160px);
     background-image: url(../img/mine.jpg);
     overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.msg-container {
+    width: 80%;
+}
+
+.msg {
+    width: 70%;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.msg-time {
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey;
+}
+
+.msg-time button {
+    color: grey;
+    background-color: transparent;
+}
+
+.msg-time p {
+    font-size: 0.7rem;
+    position: relative;
+    top: 8px;
+    left: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.your { 
+    background-color: #d5f9ba;
+}
+
+.other {
+    background-color: #ffffff;
 }
 
 .chat-footer {
