@@ -25,6 +25,11 @@
         height: calc(100% - 80px);
     }
 
+    .user-status,
+    .time {
+        display: none;
+    }
+
     /* chat column */
 
     .chat-col {
