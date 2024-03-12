@@ -103,18 +103,75 @@ header button {
     padding-right: 30px;
 }
 
+/* notifications */
+
 .notifications {
-    height: 100px;
+    height: 90px;
     background-color: #8edafc;
+    align-items: center;
 }
 
+.bell {
+    display: flex;
+    align-items: center;
+}
+
+.bell i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: #f2fbff;
+    line-height: 35px;
+    padding: 14px;
+    font-size: 1.6rem;
+    color: #8edafc;
+}
+
+.bell h2 {
+    font-size: 1rem;
+    padding: 0;
+}
+
+.bell a {
+    padding: 5px 0 0 0;
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #677d8f;
+}
+
+/* search chat*/
+
 .search-bar {
-    height: 70px;
+    height: 60px;
     background-color: #fafafa;
+    align-items: center;
+    justify-content: center;
+}
+
+.search i {
+    vertical-align: middle;
+    border: 1px solid #f1f1f1;
+    border-right: none;
+    padding: 10px 10px 10px 20px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #b7b9bb;
+}
+
+#s-chat {
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 330px;
+    color: #b7b9bb;
 }
 
 .contacts {
-    height: calc(100% - 250px);
+    height: calc(100% - 230px);
     background-color: #ffffff;
     overflow-y: auto;
 }
