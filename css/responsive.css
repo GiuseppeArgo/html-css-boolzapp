@@ -28,7 +28,7 @@
     /* chat column */
 
     .chat-col {
-        width: 90%;
+        width: calc(100% - 100px);
         height: 100%;
     }
 
