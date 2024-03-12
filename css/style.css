@@ -60,8 +60,8 @@ button {
 /* contacts column */
 
 .contact-col {
-    width: 30%;
-    height: 90vh;
+    width: 400px;
+    height: 100%;
 }
 
 /* contact header */
@@ -95,7 +95,7 @@ header button {
 }
 
 .contacts {
-    height: calc(90vh - 250px);
+    height: calc(100% - 250px);
     background-color: #ffffff;
 }
 
@@ -103,11 +103,11 @@ header button {
 
 .chat-col {
     width: 70%;
-    height: 90vh;
+    height: 100%;
 }
 
 .chat-screen {
-    height: calc(90vh - 160px);
+    height: calc(100% - 160px);
     background-image: url(../img/mine.jpg);
 }
 

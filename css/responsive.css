@@ -1,4 +1,4 @@
-/* tablet wp  */
+/* tablet vp  */
 
 @media screen and (max-width: 992px) {
     .big-container {
@@ -9,8 +9,8 @@
     /* contacts column */
 
     .contact-col {
-        width: 10%;
-        height: 100vh;
+        width: 100px;
+        height: 100%;
     }
 
     .notifications {
@@ -22,18 +22,18 @@
     }
 
     .contacts {
-        height: calc(100vh - 80px);
+        height: calc(100% - 80px);
     }
 
     /* chat column */
 
     .chat-col {
         width: 90%;
-        height: 100vh;
+        height: 100%;
     }
 
     .chat-screen {
-        height: calc(100vh - 160px);
+        height: calc(100% - 160px);
     }
 
     header ul {
@@ -50,10 +50,12 @@
 
 }
 
+/* mobile vp */
+
 @media screen and (max-width: 576px) {
     .big-container {
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
     
     /* contacts column */
@@ -66,6 +68,6 @@
     
     .chat-col {
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
 }
