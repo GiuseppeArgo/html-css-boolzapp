@@ -40,6 +40,10 @@
         display: none;
     }
 
+    .contact-col h2 {
+        display: none;
+    }
+
     .contact-header {
         justify-content: center;
     }

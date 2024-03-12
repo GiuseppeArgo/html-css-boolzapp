@@ -41,6 +41,11 @@ header {
 }
 
 /* common */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 ul {
     list-style: none;
 }
@@ -57,11 +62,25 @@ button {
     border: none;
 }
 
+.flex {
+    display: flex;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
 /* contacts column */
 
 .contact-col {
     width: 400px;
     height: 100%;
+}
+
+.user {
+    align-items: center;
 }
 
 /* contact header */
@@ -97,6 +116,7 @@ header button {
 .contacts {
     height: calc(100% - 250px);
     background-color: #ffffff;
+    overflow-y: auto;
 }
 
 /* chat column */
@@ -106,9 +126,24 @@ header button {
     height: 100%;
 }
 
+/* chat header */
+
+.chat-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header p {
+    padding-left: 15px;
+    font-size: 0.8rem;
+    color: #828c91;
+}
+
 .chat-screen {
     height: calc(100% - 160px);
     background-image: url(../img/mine.jpg);
+    overflow-y: auto;
 }
 
 .chat-footer {
